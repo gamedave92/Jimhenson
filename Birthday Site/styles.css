@@ -1,0 +1,123 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-color: aquatyi;
+    color: #ffffff;
+    background: rgb(67,181,0);
+    background: linear-gradient(90deg, rgba(67,181,0,1) 0%, rgba(186,222,14,1) 50%, rgba(49,145,0,1) 100%);
+    }
+
+
+#Henson-Profile{
+    border-radius: 60%;
+    border:#efff3d solid 10px; 
+    box-shadow: 0 20px 29px rgb(0 0 0 / 0.9);
+}
+   
+    /* for the headers*/
+h1, h2, h3, h4, p{
+    text-shadow: 0px 9px 10px black;
+    
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* for the bottom birthday info*/
+
+#bday-age{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: px 0 10px 0;
+    background:#0749d6
+}
+
+#bday-date{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin:0;
+    background:#0749d6
+}
+
+/* for the gifts*/
+
+.gift-wrapper{
+    border: #ffffff solid 6px;
+    border-radius: 10px
+    
+}
+
+.gift-section{
+    margin-top: 50px;
+}
+
+.gift-hint{
+    margin-top: 0;
+}
+
+.gift-title{
+    margin-bottom: 10px;
+}
+
+.gift-img{
+    width: 400px;
+    height: 400px;
+    border: solid rgb(69, 255, 227) 6px;
+    border-radius: 10px;
+    background-image: url(img/Ballons\ gift\ wrap.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-img-happy:hover{
+    background-image: url(img/kermit-yay.gif);
+   }
+
+   /*2nd gift*/
+
+   #gift-img-party:hover{
+    background-image: url(img/party.gif);
+   }
+
+   /*3rd gift*/
+
+   #gift-img-bob-ross:hover{
+    background-image: url(img/bob-ross.gif);
+   }
+
+   /*4th gift*/
+
+   #gift-img-amazing:hover{
+    background-image: url(img/amazing.gif)
+   }
+
+   
+   /*last gift*/
+   #gift-img-cheers{
+    height: 300px;
+   }
+
+
+   #gift-img-cheers:hover{
+    background-image: url(img/cheers.gif);
+    
+   }
+
+   /*footer section*/
+   .footer-container {
+    margin: 40px auto 20px;
+    font-weight: bold;
+    width: 400px;
+    font-style: italic;
+   }
+
+   .link{
+    color: rgb(0, 0, 0)
+   }
